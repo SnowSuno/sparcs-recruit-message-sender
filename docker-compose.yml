@@ -4,6 +4,6 @@ services:
   app:
     build: .
     ports:
-      - "1234:5000"
+      - "${PORT}:5000"
     environment:
       - PORT=5000
